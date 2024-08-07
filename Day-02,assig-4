@@ -1,0 +1,15 @@
+//Assignment 4
+#include <iostream>
+using namespace std;
+
+int sq(int a){
+    return a*a;
+}
+
+int main() {
+    int num;
+    cin>>num;
+    int square=sq(num);
+    cout<<"Square: "<<square<<endl;
+    return 0;
+}
